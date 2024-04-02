@@ -1,14 +1,12 @@
-# Text-to-Speech & Speech-to-Text Converter
+# Text-to-Speech Converter
 
-This Streamlit application provides two main functionalities: converting text to speech and transcribing speech to text. It utilizes the Google Text-to-Speech (gTTS) API for text-to-speech conversion and the SpeechRecognition library for speech-to-text transcription.
+This Streamlit application provides converting text to speech functionalities. It utilizes the Google Text-to-Speech (gTTS) API for text-to-speech conversion.
 
 ---
 ## Features
 
 - **Text-to-Speech Conversion**: Enter text and select a language from the provided options, then click the "Convert to Speech" button. The application will generate an audio file of the speech which you can listen to.
   
-- **Speech-to-Text Transcription**: Click the "Speak to Text" button to activate your microphone. Speak into the microphone, and the application will transcribe your speech into text.
-
 ## Prerequisites
 
 - Python 3.x
@@ -28,20 +26,19 @@ pip install -r requirements.txt
 5. Run the Streamlit app using the following command:
 
 ```
-streamlit run Speech_to-Text_and_Text_to_Speech.py
+streamlit run Text_to_Speech.py
 ```
 ## Usage
 - Upon running the app, it will open in your default web browser.
-- You will see two tabs: "Text-to-Speech" and "Speech-to-Text".
+- You will see "Text-to-Speech".
 - Select the desired tab based on the functionality you want to use.
-- Follow the instructions provided on each tab to perform text-to-speech or speech-to-text conversion.
+- Follow the instructions provided on each tab to perform text-to-speech conversion.
 
 ### Additional Notes:
 
-- Ensure that your microphone is properly connected and configured for speech recognition.
-- Note that the accuracy of speech-to-text transcription may vary depending on factors such as background noise and accent.
+- Ensure that your microphone is properly connected for listening.
+- Note that the accuracy of text-to-speech may vary depending on factors such as unknown language.
 
 ---
 
 Feel Free to Contact me
-](https://github.com/Karanchrish/Text_to_Speech)
