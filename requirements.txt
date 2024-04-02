@@ -1,2 +1,3 @@
 gtts
 streamlit
+speech_recognition
