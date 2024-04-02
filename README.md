@@ -38,6 +38,10 @@ streamlit run Text_to_Speech.py
 
 - Ensure that your microphone is properly connected for listening.
 - Note that the accuracy of text-to-speech may vary depending on factors such as unknown language.
+  
+## output
+
+![Output](https://github.com/Karanchrish/Text_to_Speech/assets/124337511/a3714ea9-8786-4d3b-b532-f507b367ed69)
 
 ---
 
